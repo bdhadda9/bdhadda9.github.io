@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Part 1: Implementing a Light/Dark Mode Switcher",
+    "date": "August 1, 2025",
+    "content": "<p>For this assignment, the first task was to create a light and dark mode for the website, and make use of a button that the user can then select to switch between the two modes. In order to do this, first, I set up my colors in CSS using variables. This way, all my JavaScript had to do was add or remove a dark-mode class from the <body> tag. The last step was making sure the site remembers this choice. I used document.cookie as we learned in class to save the theme (light or dark). Then, when the page loads, a script checks for the cookie and applies the right theme.</p>"
+  },
+  {
+    "title": "Part 2: Loading Blog Posts from a JSON File",
+    "date": "August 2, 2025",
+    "content": "<p>For Part 2 of the assignment, I didn't want to edit my HTML file every time I wrote a new blog post, so I learned how to load them from a separate file using JavaScript. I created a 'posts.json' file to hold an array of post objects. To get the data into my page, I used the fetch() function. Once I had the posts, I looped through them with forEach. Finally, for each post, I used document.createElement() to create the HTML elements and appendChild() to put all the pieces together and add them to my main blog page.</p>"
+  }
+]

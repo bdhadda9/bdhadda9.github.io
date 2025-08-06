@@ -2,30 +2,24 @@
 <html>
 <head>
     <title>Blog: Balraj Dhadda</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="resume.html">Resume</a> |
-        <a href="projects.html">Projects</a> |
-        <a href="blog.html">Blog</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+    <!-- The header will be loaded here by JavaScript -->
+    <div id="header-placeholder"></div>
 
-    <div style="padding: 20px;">
+    <div class="content-wrapper">
         <h1>Balraj's Blog</h1>
-        <p>Placeholder Post</p>
         
-        <div style="border: 1px solid lightgray; padding: 15px; margin: 10px;">
-            <h3>Sample Blog Post</h3>
-            <p><em>Date: June 20, 2025 11:00PM</em></p>
-            <p>This is where blog content will go during Assignment 2</p>
+        <!-- This is where blog posts from posts.json will be loaded -->
+        <div id="blog-list">
+            <p>Loading posts...</p>
         </div>
     </div>
-    <footer>
-        <p>&copy; Copyright 2025 Balraj Dhadda. All Rights Reserved.</p>
-    </footer>
+
+    <!-- The footer will be loaded here by JavaScript -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>

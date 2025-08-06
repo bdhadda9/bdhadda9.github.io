@@ -1,0 +1,107 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding-top: 50px; 
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.content-wrapper {
+    padding: 20px;
+    height: calc(100vh - 90px); 
+    overflow-y: auto;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 40px;
+    color: black;
+    margin: 0 0 15px 0;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.btn, form button, #theme-toggle {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav {
+    background: #222222;
+}
+
+body.dark-mode nav a {
+    color: #ff8a8a;
+}
+
+body.dark-mode h1 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background: #2c2c2c;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode .btn,
+body.dark-mode form button,
+body.dark-mode #theme-toggle {
+    background: #90caf9;
+    color: black;
+}
+
+body.dark-mode footer {
+    background: #121212;
+    color: #e0e0e0;
+}
